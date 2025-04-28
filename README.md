@@ -13,4 +13,4 @@ Heltec Cubecell transmitter and receiver for synchronized LED beacons
   Resets pattern each time a packet is received ensuring a consistent LED sync between devices (pods).
   Design assumes there will be 4 pods for chase sequences.
   Defaults to a specific pattern if a new packet is not received within 30 seconds after last packet received.
-  
+  Each pod must be given a number between 1-4 i.e. int podNumber = X;
